@@ -3,7 +3,13 @@
 </p>
 
 <p align="center">
-  <b>A chronological daily activity logger for <a href="https://antinote.io">Antinote</a> on macOS.</b><br>
+  <img src="assets/antinote-icon.png" alt="Antinote Logo" width="44" height="44" style="vertical-align: middle;">
+  &nbsp;
+  <b>Daily Log — Antinote Extension</b>
+</p>
+
+<p align="center">
+  A chronological daily activity logger for <a href="https://antinote.io">Antinote</a> on macOS.<br>
   Capture your schedule, Todoist tasks, browser activity, and AI summaries in a single daily node.
 </p>
 
