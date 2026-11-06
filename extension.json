@@ -1,0 +1,38 @@
+{
+  "name": "daily_log",
+  "version": "1.0.0",
+  "author": "user",
+  "description": "Daily activity log capturing Todoist tasks, calendar events, browser activity, emails, and AI summary in chronological order.",
+  "license": "MIT",
+  "category": "Productivity",
+  "dataScope": "full",
+  "endpoints": [
+    "https://api.todoist.com/rest/v2",
+    "http://127.0.0.1:8998",
+    "http://localhost:8998"
+  ],
+  "requiredAPIKeys": [
+    "apikey_todoist"
+  ],
+  "dependencies": [
+    "ai_providers"
+  ],
+  "commands": [
+    {
+      "name": "daily_log",
+      "description": "Generate a full chronological daily log node with tasks, events, and AI summary",
+      "type": "replaceLine"
+    },
+    {
+      "name": "quick_log",
+      "description": "Quickly record a timestamped activity entry into the current note",
+      "type": "replaceLine"
+    },
+    {
+      "name": "summarize_day",
+      "description": "Synthesize the current daily log into accomplishments and action items using AI",
+      "type": "replaceLine"
+    }
+  ],
+  "official": false
+}
